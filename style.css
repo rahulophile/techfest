@@ -10,8 +10,9 @@ html{
 }
 
 body{
-    background: #080808;
     color: #fff;
+    background: #111;
+    font-family: 'Poppins',sans-serif;
 }
 
 .logo{
@@ -35,7 +36,7 @@ nav ul li a::after{
     content: '';
     width: 0%;
     height: 3px;
-    background: #FFD700;
+    background: #00bfff;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -88,7 +89,11 @@ nav {
 }
 
 .header-text h1 span{
-    color: #FFD700;
+    color: #00bfff;
+}
+
+.about-col-2 h1 span{
+    color: #00bfff;
 }
 
 #about{
@@ -146,7 +151,7 @@ nav {
     content: '';
     width: 0;
     height: 3px;
-    background: #ffd90091;
+    background: #00bfff9f;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -164,7 +169,7 @@ nav {
 }
 
 .tab-contents ul li span{
-    color: #ffd900df;
+    color: #00bfffe5;
     font-size: 14px;
 }
 
@@ -225,7 +230,7 @@ nav {
 }
 
 .services-list div:hover{
-    background: #998306;
+    background: #00bfffb0;
     transform: translateY(-10px);
 }
 
@@ -256,7 +261,7 @@ nav {
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #FFD700);
+    background: linear-gradient(rgba(0,0,0,0.6), #00bfff);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -279,7 +284,7 @@ nav {
 
 .layer a{
     margin-top: 20px;
-    color: #FFD700;
+    color: #00bfff;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -302,7 +307,7 @@ nav {
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #FFD700;
+    border: 1px solid #00bfff;
     padding: 14px;
     border-radius: 6px;
     text-decoration: none;
@@ -311,7 +316,7 @@ nav {
 }
 
 .btn:hover{
-    background: #998306;
+    background: #00bfffb4;
 }
 
 .contact-left{
@@ -327,7 +332,7 @@ nav {
 }
 
 .contact-left p i{
-    color: #FFD700;
+    color: #00bfff;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -346,13 +351,13 @@ nav {
 }
 
 .social-icons a:hover{
-    color: #998306;
+    color: #00bfffb3;
     transition: transform(-5px);
 }
 
 .btn.btn2{
     display: inline-block;
-    background: #998306;
+    background: #00bfffb3;
 }
 
 .contact-right form{
@@ -388,7 +393,7 @@ form .btn2{
 }
 
 .copyright i{
-    color: #FFD700;
+    color: #00bfff;
 }
 
 nav .fa-solid{
@@ -429,12 +434,12 @@ nav .fa-solid{
         font-size: 35px;
     }
     nav ul{
-        background: #998306;
+        background: #2280a0;
         position: fixed;
         top: 0;
         right: -200px;
         width: 200px;
-        height: 60vh;
+        height: 70vh;
         padding-top: 70px;
         z-index: 2;
         transition: right 0.5s;
