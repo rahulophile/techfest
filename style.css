@@ -65,7 +65,7 @@ nav {
     flex-wrap: wrap;
 }
 .background-clip{
-    filter: brightness(70%);
+    filter: brightness(50%);
     background-blend-mode: darken;
     position: absolute;
     right: 0;
