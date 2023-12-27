@@ -90,11 +90,11 @@ nav {
 
 .header-text h1 span{
     color: #00bfff;
+    filter : brightnes(500%);
 }
 
 .about-col-2 h1 span{
     color: #00bfff;
-    filter : brightnes(500%);
 }
 
 #about{
