@@ -17,21 +17,23 @@
       src="https://kit.fontawesome.com/2e40ca149e.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <title>Codingo - Techfest</title>
   </head>
   <body>
-    
     <div id="header">
+      <!-- <div class="background-clip">
+        <img style="width: 100vw;" src="img/mb.jpg" alt="img" />
+      </div> -->
       <div class="container">
-        <img src="bg2.jpg" class="background-clip" alt="img">
+        <img src="img/bg2.jpg" class="background-clip" alt="img">
         <nav>
-          <img src="logo 2.png" alt="logo" class="logo" />
+          <img src="img/logo 2.png" alt="logo" class="logo" />
           <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Events</a></li>
-            <li><a href="#portfolio">Timeline</a></li>
+            <li><a href="#portfolio">Glimpse</a></li>
             <li><a href="#contact">Contact Us</a></li>
             <li><a href="#header">Developer</a></li>
             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
@@ -39,7 +41,7 @@
           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
-          <h1><span>CODINGO</span></h1>
+          <h1 data-text="CODINGO ❤︎"><span>CODINGO ❤</span></h1>
           <p>
             The Codingo – Internal Tech Fest will be a multi-faceted event,
             featuring a diverse range of activities, performances, and
@@ -52,50 +54,57 @@
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img src="poster.png" class="aboutMeImg" alt="photo" />
+            <img src="img/poster.png" class="aboutMeImg" alt="photo" />
           </div>
           <div class="about-col-2">
             <h1 class="sub-title">About <span>Codingo</span></h1>
             <p>
-              Welcome to the most anticipated and exhilarating event of the academic year –  CODINGO TechFest 2023 at Government Engineering College Vaishali. Prepare yourself for an electrifying experience as we embark on a journey to explore the frontiers of technology, innovation, and creativity. TechFest is not just an event; it's a celebration of intellect, a showcase of cutting-edge advancements, and a platform for fostering a culture of innovation.
+              Welcome to the most anticipated and exhilarating event of the
+              academic year – CODINGO TechFest 2023 at Government Engineering
+              College Vaishali. Prepare yourself for an electrifying experience
+              as we embark on a journey to explore the frontiers of technology,
+              innovation, and creativity. TechFest is not just an event; it's a
+              celebration of intellect, a showcase of cutting-edge advancements,
+              and a platform for fostering a culture of innovation.
             </p>
             <div class="tab-titles">
               <p class="tab-links active-link" onclick="opentab('skills')">
                 Themes
               </p>
-              <p class="tab-links" onclick="opentab('experience')">
-                Vision
-              </p>
+              <p class="tab-links" onclick="opentab('experience')">Vision</p>
               <p class="tab-links" onclick="opentab('education')">History</p>
             </div>
             <div class="tab-contents active-tab" id="skills">
               <ul>
-                <li>
-                  <span>HACKATHON : Code, Create, Conquer</span><br />
-                </li>
-                <li>
-                  <span>ROBOWARS</span><br />
-                </li>
-                <li>
-                  <span>PROJECT SHOWCASE</span><br />
-                </li>
-                <li>
-                  <span>STARTUP SHOWCASE</span><br />
-                </li>
+                <li><span>HACKATHON : Code, Create, Conquer</span><br /></li>
+                <li><span>ROBOWARS</span><br /></li>
+                <li><span>PROJECT SHOWCASE</span><br /></li>
+                <li><span>STARTUP SHOWCASE</span><br /></li>
               </ul>
             </div>
             <div class="tab-contents" id="experience">
               <ul>
                 <li>
-                  Our vision for the inaugural TechFest is to create a dynamic platform that not only showcases the prowess of our students but also provides a collaborative space for learning, networking, and exploration. The mission is to foster a culture of innovation, curiosity, and hands-on learning among the participants.
+                  Our vision for the inaugural TechFest is to create a dynamic
+                  platform that not only showcases the prowess of our students
+                  but also provides a collaborative space for learning,
+                  networking, and exploration. The mission is to foster a
+                  culture of innovation, curiosity, and hands-on learning among
+                  the participants.
                 </li>
               </ul>
             </div>
             <div class="tab-contents" id="education">
               <ul>
                 <li>
-                  Get ready to witness history in the making as Government Engineering College Vaishali proudly announces its first-ever TechFest <span>CODINGO</span> ! The air is charged with excitement as we embark on a technological odyssey, bringing together students, enthusiasts, and industry professionals to celebrate innovation, creativity, and the limitless potential of technology.
-                </li> 
+                  Get ready to witness history in the making as Government
+                  Engineering College Vaishali proudly announces its first-ever
+                  TechFest <span>CODINGO</span> ! The air is charged with
+                  excitement as we embark on a technological odyssey, bringing
+                  together students, enthusiasts, and industry professionals to
+                  celebrate innovation, creativity, and the limitless potential
+                  of technology.
+                </li>
               </ul>
             </div>
           </div>
@@ -106,96 +115,133 @@
       <div class="container">
         <h1 class="sub-title">Events</h1>
         <div class="services-list">
-          <div>
-            <span class="material-symbols-outlined"> code </span>
-            <h2>Hackathon</h2>
-            <p>
-              A hackathon is an event where individuals or teams, typically consisting of programmers, developers, designers, and other tech enthusiasts, collaborate intensively on software projects. The goal of a hackathon is to create usable and innovative software solutions within a defined timeframe, usually ranging from a few hours to a few days.
-            </p>
-            <a href="#"><span class="learn-more-btn">Learn More</span></a>
+          <div class="event-poster">
+            <!--<span class="material-symbols-outlined"> code </span>-->
+            <!--<h2>Frontend Fiesta</h2>-->
+            <a href="event pages/event1.html"
+              ><img src="img/fronted.png" alt="img"
+            /></a>
+            <br />
+            <br />
+            <a href="event pages/event1.html"><h2>Frontend Fiesta</h2></a>
           </div>
-          <div>
-            <span class="material-symbols-outlined"> robot </span>
-            <h2>RoboWars</h2>
-            <p>
-              A RoboWar event, often known as Robot Combat or Robot Wars, is a competitive robotics competition where participants design, build, and operate remote-controlled robots to engage in a battle against each other. The primary objective is to disable or immobilize the opponent's robot within a specified arena. These events are a popular and exciting way for robotics enthusiasts to showcase their engineering and strategic skills.
-            </p>
-            <a href="#"><span class="learn-more-btn">Learn More</span></a>
+          <div class="event-poster">
+            <!--<span class="material-symbols-outlined"> code </span>-->
+            <a href="event pages/event1.html"
+              ><img src="img/coding.png" alt="img"
+            /></a>
+            <br />
+            <br />
+            <a href="event pages/event1.html"><h2>Coding Quest</h2></a>
           </div>
-          <div>
-            <span class="material-symbols-outlined"> precision_manufacturing </span>
-            <h2>Project showcase</h2>
-            <p>
-              A project showcase is an event or platform where individuals or teams present and exhibit their completed projects to an audience. This can happen in various contexts, including academic institutions, industry conferences, innovation expos, or community gatherings. The goal of a project showcase is to share and celebrate the outcomes of creative and innovative endeavors, allowing creators to demonstrate their skills, achievements, and the impact of their work.
-            </p>
-            <a href="#"><span class="learn-more-btn">Learn More</span></a>
+          <div class="event-poster">
+            <!--<span class="material-symbols-outlined"> code </span>-->
+            <a href="event pages/event1.html"
+              ><img src="img/fronted.png" alt="img"
+            /></a>
+            <br />
+            <br />
+            <a href="event pages/event1.html"><h2>Volt Vortex</h2></a>
           </div>
-          <div>
-            <span class="material-symbols-outlined"> lightbulb </span>
-            <h2>Startup Showcase</h2>
-            <p>
-              A startup showcase is an event or platform where early-stage startups present their products, services, and business models to potential investors, customers, partners, and the broader community. The showcase provides an opportunity for startups to gain visibility, receive feedback, and make valuable connections that can contribute to their growth and success. These events are often organized by incubators, accelerators, entrepreneurship programs, or industry conferences.  
-            </p>
-            <a href="#"><span class="learn-more-btn">Learn More</span></a>
+          <div class="event-poster">
+            <!--<span class="material-symbols-outlined"> code </span>-->
+            <a href="event pages/event1.html"
+              ><img src="img/rc.png" alt="img"
+            /></a>
+            <br />
+            <br />
+            <a href="event pages/event1.html"><h2>RC SkyQuest</h2></a>
+          </div>
+          <div class="event-poster">
+            <!--<span class="material-symbols-outlined"> code </span>-->
+            <a href="event pages/event1.html"
+              ><img src="img/rc car.png" alt="img"
+            /></a>
+            <br />
+            <br />
+            <a href="event pages/event1.html"><h2>Race Riot</h2></a>
+          </div>
+          <div class="event-poster">
+            <!--<span class="material-symbols-outlined"> robot </span>-->
+            <a href="event pages/event1.html"
+              ><img src="img/fronted.png" alt="img"
+            /></a>
+            <br />
+            <br />
+            <a href="event pages/event1.html"><h2>RoboWars</h2></a>
+          </div>
+          <div class="event-poster">
+            <!--<span class="material-symbols-outlined"> precision_manufacturing </span>-->
+
+            <a href="event pages/event1.html"
+              ><img src="img/fronted.png" alt="img"
+            /></a>
+            <br />
+            <br />
+            <a href="event pages/event1.html"><h2>Project Showcase</h2></a>
+          </div>
+          <div class="event-poster">
+            <!--<span class="material-symbols-outlined"> lightbulb </span>-->
+
+            <a href="event pages/event1.html"
+              ><img src="img/fronted.png" alt="img"
+            /></a>
+            <br />
+            <br />
+            <a href="event pages/event1.html"><h2>Startup Showcase</h2></a>
           </div>
         </div>
       </div>
     </div>
     <div id="portfolio">
       <div class="container">
-        <h1 class="sub-title">Timeline</h1>
-        <div class="work-list">
-          <div class="work">
-            <img src="poster.png" alt="img" />
-            <div class="layer">
-              <h3>HACKATHON</h3>
-              <p>
-                To participate in Internal Hackathon competition click the arrow given below.
-              </p>
-              <a href="www.google.com" target="_blank"
-                ><span class="material-symbols-outlined"> north_east </span></a
-              >
-            </div>
-          </div>
-          <div class="work">
-            <img src="poster.png" alt="img" />
-            <div class="layer">
-              <h3>ROBOWARS</h3>
-              <p>
-                To participate in RoboWar competition click the arrow given below.
-              </p>
-              <a href="#"
-                ><span class="material-symbols-outlined"> north_east </span></a
-              >
-            </div>
-          </div>
-          <div class="work">
-            <img src="poster.png" alt="img" />
-            <div class="layer">
-              <h3>PROJECT SHOWCASE</h3>
-              <p>
-                To participate in Project Showcase competition click the arrow given below.
-              </p>
-              <a href="#"
-                ><span class="material-symbols-outlined"> north_east </span></a
-              >
-            </div>
-          </div>
-          <div class="work">
-            <img src="poster.png" alt="img" />
-            <div class="layer">
-              <h3>STARTUP SHOWCASE</h3>
-              <p>
-                To participate in Startup Showcase competition click the arrow given below.
-              </p>
-              <a href="#"
-                ><span class="material-symbols-outlined"> north_east </span></a
-              >
-            </div>
+        <h1 class="sub-title">Glimpse</h1>
+        <div class="wrapper">
+          <div class="container-1">
+            <input type="radio" name="slide" id="c1" checked />
+            <label for="c1" class="card">
+              <div class="rowG">
+                <div class="icon">1</div>
+                <div class="description">
+                  <h4>Winter</h4>
+                  <p>Winter has so much to offer - creative activities</p>
+                </div>
+              </div>
+            </label>
+            <input type="radio" name="slide" id="c2" />
+            <label for="c2" class="card">
+              <div class="rowG">
+                <div class="icon">2</div>
+                <div class="description">
+                  <h4>Digital Technology</h4>
+                  <p>Gets better every day - stay tuned</p>
+                </div>
+              </div>
+            </label>
+            <input type="radio" name="slide" id="c3" />
+            <label for="c3" class="card">
+              <div class="rowG">
+                <div class="icon">3</div>
+                <div class="description">
+                  <h4>Globalization</h4>
+                  <p>Help people all over the world</p>
+                </div>
+              </div>
+            </label>
+            <input type="radio" name="slide" id="c4" />
+            <label for="c4" class="card">
+              <div class="rowG">
+                <div class="icon">4</div>
+                <div class="description">
+                  <h4>New technologies</h4>
+                  <p>Space engineering becomes more and more advanced</p>
+                </div>
+              </div>
+            </label>
           </div>
         </div>
-        <a href="#" class="btn">See More</a>
       </div>
+      <a href="#" class="btn">See More</a>
     </div>
     <div id="contact">
       <div class="container">
@@ -206,9 +252,7 @@
               <i class="fa-solid fa-envelope"></i>
               example1234@gmail.com
             </p>
-            <p>
-              <i class="fa-solid fa-phone"></i>+91-1234-5678-99
-            </p>
+            <p><i class="fa-solid fa-phone"></i>+91-1234-5678-99</p>
             <div class="social-icons">
               <a href="https://www.facebook.com/Gecvaishali"
                 ><i class="fab fa-facebook"></i
@@ -223,9 +267,7 @@
                 ><i class="fab fa-linkedin"></i
               ></a>
             </div>
-            <a href="" download class="btn btn2"
-              >Download Prospectus</a
-            >
+            <a href="" download class="btn btn2">Download Prospectus</a>
           </div>
           <div class="contact-right">
             <form>
@@ -247,9 +289,7 @@
         </div>
       </div>
       <div class="copyright">
-        <p>
-          Copyright @gec-vaishali <i class="fa-solid fa-heart"></i>
-        </p>
+        <p>Copyright @gec-vaishali <i class="fa-solid fa-heart"></i></p>
       </div>
     </div>
     <script>
@@ -273,6 +313,17 @@
       }
       function closemenu() {
         sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const bgAnimation = document.getElementById("bgAnimation");
+
+      const numberOfColorBoxes = 400;
+
+      for (let i = 0; i < numberOfColorBoxes; i++) {
+        const colorBox = document.createElement("div");
+        olorBox.classList.add("colorBox");
+        bgAnimation.append(colorBox);
       }
     </script>
   </body>
